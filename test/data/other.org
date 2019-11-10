@@ -1,0 +1,12 @@
+#+begin_src anki
+Block TeX:
+
+$$f(x) = ~~y~~$$
+---
+Main:
+
+```python
+~~def main(argv: ~~List[str]~~) -> int:
+    return 0~~
+```
+#+end_src

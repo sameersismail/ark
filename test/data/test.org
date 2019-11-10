@@ -1,0 +1,72 @@
+#+begin_src anki
+An unordered list:
+
+- X
+- Y
+- ~~Z~~
+#+end_src
+
+
+#+begin_src anki
+An ordered list:
+
+1. X
+2. Y
+3. ~~Z~~
+#+end_src
+
+
+#+begin_src anki
+A command: ~~`rustc`~~
+#+end_src
+
+
+#+begin_src anki
+A program:
+
+```
+fn main() -> Result<T, E> {
+    ~~Ok(())~~
+}
+```
+#+end_src
+
+
+#+begin_src anki
+A highlighted program:
+
+```python
+def main(argv: List[str]) -> None:
+    print("Hello, ~~world.~~")
+```
+#+end_src
+
+
+#+begin_src anki
+Inline TeX: $f(x) = $ ~~$y$~~
+#+end_src
+
+
+#+begin_src anki
+A table:
+
+|A|B|C|
+|---|---|---|
+|X|Y|~~Z~~|
+#+end_src
+
+
+#+begin_src anki
+Escaped:
+
+- \_
+- \*
+- ~~\$~~
+#+end_src
+
+
+#+begin_src anki
+Block TeX:
+
+$$f(x) = ~~y~~$$
+#+end_src
